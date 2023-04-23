@@ -127,6 +127,18 @@ const q4Array = [
     "Building token exposure"
 ];
 
-const roadList = [q1Array, q2Array, q3Array, q4Array]
+export const roadList = [q1Array, q2Array, q3Array, q4Array]
 
+export const token = [
+    <p><b>3.000.000</b> seed sale 10% tge vested 2 month cliff 12 months 7.5% a month 10x</p>,
+    <p><b>20.000.000</b> private sale 10% tge vested 2 month cliff 12 months 7.5% a month 5x</p>,
+    <p><b>10.000.000</b> public pre sale 10% tge vested 2 month cliff 12 months 7.5% a month 2.5x</p>,
+    <p><b>15.000.000</b> public sale liquidity</p>,
+    <p><b>10.000.000</b> team tokens vested 4 month cliff 8.3% a month</p>,
+    <p><b>3.000.000</b> advisors 4 month cliff 8.3% a month</p>,
+    <p><b>15.000.000</b> staking monthly unlock</p>,
+    <p><b>24.000.000</b> company reserve 5% unlock every month by no need burn</p>,
+    <p><b>25%</b> from private sale and 25% from public pre sale going to liquidity pool</p>,
+    <p>Tax <b>2%</b> buy <b>2%</b> sell going for project expenses and marketing</p>
+];
 

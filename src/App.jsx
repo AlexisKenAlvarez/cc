@@ -9,6 +9,9 @@ import Marketplace from './pages/Marketplace'
 import Companies from './pages/Companies'
 import EcoGoal from './pages/EcoGoal'
 import Startup from './pages/Startup'
+import Roadmap from './pages/Roadmap'
+import Tokenomics from './pages/Tokenomics'
+import Team from './pages/Team'
 
 const App = () => {
     const location = usePathname()
@@ -17,7 +20,7 @@ const App = () => {
 
     return (
         <>
-            <div className="overflow-x-hidden text-white">
+            <div className="overflow-x-hidden text-white h-auto">
                 <Nav />
                 <Routes>
                     <Route exact path="/" element={<Hero />}></Route>
@@ -26,12 +29,11 @@ const App = () => {
                     <Route exact path="/companies" element={<Companies />}></Route>
                     <Route exact path="/economy&goal" element={<EcoGoal />}></Route>
                     <Route exact path="/startup" element={<Startup />}></Route>
-
-
-
-
+                    <Route exact path="/roadmap" element={<Roadmap />}></Route>
+                    <Route exact path="/tokenomics" element={<Tokenomics />}></Route>
+                    <Route exact path="/team" element={<Team />}></Route>
                 </Routes>
-                <div className="absolute left-0 right-0 mx-auto bottom-6 w-fit lg:block hidden">
+                <div className="fixed left-0 right-0 mx-auto bottom-6 w-fit lg:block hidden">
                     <ul className=" flex gap-x-2">
                         {navList.map((items, i) => {
                             return (
