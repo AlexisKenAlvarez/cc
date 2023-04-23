@@ -1,5 +1,6 @@
 import React from 'react'
 import PageTrans from '../anim/PageTrans'
+import Anim from '../anim/Anim'
 
 const Marketplace = () => {
     return (
@@ -13,22 +14,27 @@ const Marketplace = () => {
                 <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem]">
 
                     <div className="">
-                        <h3 className='text-rd font-[700] uppercase'>MARKET</h3>
-                        <h1 className="font-[800] text-5xl 2xl:text-6xl">MARKETPLACE</h1>
-
+                        <Anim delay={0.1}>
+                            <h3 className='text-rd font-[700] uppercase'>MARKET</h3>
+                            <h1 className="font-[800] text-5xl 2xl:text-6xl">MARKETPLACE</h1>
+                        </Anim>
                         <div className="max-w-[50rem] mt-4 2xl:text-xl flex flex-col gap-y-6">
-                            <p className="">
-                                The NFT will be able to sell on Opensea there where they can increase in value as there is limited supply of 500 Make up NFT’s and as the net profit of the store will grow the value of the NFT will grow too due to increasing rewards.
-                            </p>
+                            <Anim delay={0.2}>
+                                <p className="">
+                                    The NFT will be able to sell on Opensea there where they can increase in value as there is limited supply of 500 Make up NFT’s and as the net profit of the store will grow the value of the NFT will grow too due to increasing rewards.
+                                </p>
+                            </Anim>
+                            <Anim delay={0.3}>
+                                <p className="">
+                                    Each NFT will have its own price and how much NFT’s will be offered based on the business that will be set up.
+                                </p>
+                            </Anim>
+                            <Anim delay={0.4}>
+                                <p className="">
 
-                            <p className="">
-                                Each NFT will have its own price and how much NFT’s will be offered based on the business that will be set up.
-                            </p>
-
-                            <p className="">
-
-                                The Dapp that shows your nft’s and current rewards on it is a nice feature to track to profits made by your companies/NFT’s
-                            </p>
+                                    The Dapp that shows your nft’s and current rewards on it is a nice feature to track to profits made by your companies/NFT’s
+                                </p>
+                            </Anim>
                         </div>
                     </div>
 
