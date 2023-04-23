@@ -27,7 +27,7 @@ const Nav = () => {
                     {navList.map((items, i) => {
                         return (
                             <li className="w-fit relative" key={i}>
-                                <a href={`#${items.slug}`} className="font-[600]">{items.label}</a>
+                                <a href={`${items.slug}`} className="font-[600]">{items.label}</a>
                             </li>
                         )
                     })}
@@ -42,7 +42,7 @@ const Nav = () => {
                 {navList.map((items, i) => {
                     return (
                         <li className="w-fit relative group" key={i}>
-                            <a href={`#${items.slug}`} className="font-[600]">{items.label}</a>
+                            <a href={`${items.slug}`} className="font-[600]">{items.label}</a>
                             <div className="w-0 h-[4px] mx-auto bg-rd absolute -bottom-2 left-0 right-0 group-hover:w-5 transition-width ease-in-out duration-100" style={path === items.slug ? { width: '1.25rem' } : {}}></div>
                         </li>
                     )

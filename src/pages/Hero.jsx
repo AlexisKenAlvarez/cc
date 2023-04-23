@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 const Hero = () => {
     return (
-        <section className="bg-blk w-full h-screen text-white relative overflow-hidden font-poppins flex items-center py-20">
+        <section className="bg-blk w-full h-screen text-white relative overflow-hidden font-raleway flex items-center py-20">
 
             <img src="/bg.webp" alt="Background" className="absolute top-0 bottom-0 w-full h-full object-cover" />
             <img src="/hero.webp" alt="" className="right-0 bottom-0 absolute object-cover h-full lg:block hidden" />
@@ -14,7 +14,7 @@ const Hero = () => {
 
             <div className="font-raleway relative z-10 max-w-[1500px] w-full mx-auto px-10 text-center lg:text-left">
 
-                
+
 
                 <div className="font-[800] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl">
                     <h1>CC THE FIRST WEB</h1>
@@ -23,7 +23,7 @@ const Hero = () => {
 
 
                 <div className="max-w-[50rem] mt-2 mx-auto lg:mx-0">
-                    <p className="">
+                    <p className="font-[500]">
                         Be able to participate in company start ups and earn rewards as an early adopter of the company via NFT’s. Earn a share in its wide range of companies and profit share on its annual net profit. You can become a shareholder in a company by holding the NFT and earn rewards of the company you choose to invest in.
                     </p>
                 </div>
