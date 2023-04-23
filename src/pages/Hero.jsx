@@ -9,7 +9,7 @@ const Hero = () => {
             <section className="bg-blk w-full h-screen text-white relative overflow-hidden font-raleway flex items-center py-20">
 
                 <img src="/bg.webp" alt="Background" className="absolute top-0 bottom-0 w-full h-full object-cover" />
-                <img src="/hero.webp" alt="" className="right-0 bottom-0 absolute object-cover h-full lg:block hidden" />
+                <motion.img initial={{ y: 50, opacity: 0, scale: 0.7 }} animate={{ y: 0, opacity: 1, scale: 1 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97], delay: 0.1 }} src="/hero.webp" alt="" className="right-0 bottom-0 absolute object-cover h-full lg:block hidden" />
 
                 <div className="bg-rd/60 w-[15rem] h-[15rem] rounded-full absolute blur-[10rem]"></div>
                 <div className="bg-rd/60 w-[15rem] h-[15rem] rounded-full absolute blur-[10rem] bottom-0 left-[30rem]"></div>
